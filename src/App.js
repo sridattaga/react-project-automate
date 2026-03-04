@@ -6,7 +6,7 @@ function App() {
     <div>
       <Header />
       <h2>Welcome venky</h2>
-      <p>This is a sample React application.</p>
+      <p>welocme all persons here</p>
     </div>
   );
 }
