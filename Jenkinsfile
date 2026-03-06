@@ -23,7 +23,7 @@ pipeline {
                 checkout scmGit(
                     branches: [[name: "*/${GIT_BRANCH}"]],
                     userRemoteConfigs: [[
-                        credentialsId: 'key',
+                        credentialsId: 'key jenkins',
                         url: "${GIT_REPO}"
                     ]]
                 )
