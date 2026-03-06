@@ -52,9 +52,14 @@ pipeline {
                 }
             }
         }
-
-        
-
+   stage('Push to Docker Hub') {
+            steps {
+                sh """
+                docker push ${DOCKERHUB_USER}/${IMAGE_NAME}:${IMAGE_TAG}
+                """
+            }
+        }
+      
         stage('Deploy Container') {
             steps {
                 sh """
