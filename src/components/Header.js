@@ -6,7 +6,7 @@ function Header() {
       <div className="fs-header__brand">
         <span className="fs-header__logo">🌸</span>
         <div>
-          <h1 className="fs-header__title">Venky&apos;s Flower shop</h1>
+          <h1 className="fs-header__title">Venky&apos;s Flower shop ours</h1>
           <p className="fs-header__subtitle">Fresh blooms, delivered with love</p>
         </div>
       </div>
